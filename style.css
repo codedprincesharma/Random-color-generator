@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#box {
+  height: 100%;
+  padding: 30px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+#btn {
+  width: 99%;
+  height: 10vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#btn button {
+  width: 100vw;
+  height: 100%;
+  font-size: 2rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+#btn:active {
+  scale: 0.99;
+}
